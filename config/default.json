@@ -1,0 +1,5 @@
+{
+    "jwtSecret": "secret",
+    "verifySenderEmailName": "superdev0109@outlook.com",
+    "verifySenderEmailPassword": "password!@#!@#"
+}

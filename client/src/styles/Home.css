@@ -1,0 +1,147 @@
+.home {
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #17E684;
+    padding-top: 20px;
+    height: 70px;
+    display: flex;
+}
+
+.greenboard {
+    background-color: #17E684;
+    height: 700px;
+    padding-top: 150px;
+
+}
+
+.nexus {
+    margin-left: 20%;
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 10%;
+    color: white;
+    text-decoration: none;
+}
+
+.navitem {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.navitem:hover {
+    cursor: pointer;
+    font-size: larger;
+}
+
+.loginbutton {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.button {
+    width: max-content;
+    height: max-content;
+    border-radius: 15px;
+    background-color: white;
+    border: #17E684;
+    color: #17E684;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    box-shadow: 4px 4px 15px 0 rgb(0 0 0 / 40%);
+}
+
+.button:hover {
+    color: white;
+    background-color: #17E684;
+    cursor: pointer;
+}
+
+.simple {
+    width: 50%;
+
+}
+
+.simple_text {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-left: 40%;
+    padding-right: 10%;
+    text-align: left;
+}
+
+.simple_text_s {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-left: 40%;
+    padding-right: 10%;
+    text-align: left;
+}
+
+.shortenbutton {
+    padding-top: 40px;
+    padding-left: 40%;
+}
+
+.popup-content {
+    border-radius: 15px 0 0 15px;
+    width: 700px !important;
+    height: 600px !important;
+    text-align: center;
+    color: #17E684;
+    box-shadow: 15px 15px 15px 0px rgb(0 0 0 / 40%);
+    overflow-y: scroll;
+}
+
+.try {
+    box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 20%);
+}
+
+.hover:hover {
+    cursor: pointer;
+}
+
+.try:hover {
+    background-color: white !important;
+    color: #17E684 !important;
+}
+
+th,
+td {
+    width: 120px;
+}
+
+tr {
+    height: 40px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+ul {
+    list-style-image: url('../images/check-circle-fill.svg');
+}
+
+.blocks {
+    display: inline-flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+li {
+    margin-top: 10px;
+}
